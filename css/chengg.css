@@ -1,0 +1,73 @@
+.tou{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: -webkit-linear-gradient(left, #ff3432,#ff7918);
+    background: linear-gradient(left, #ff3432,#ff7918);
+    font-size: 0.36rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    position: relative;
+    }
+    .tou .icon-right{
+    position: absolute;
+    color: #fff;
+    font-size: 0.3rem;
+    top: 0;
+    left: 0.24rem;
+    }
+    .top{
+    width: 7.5rem;
+    height: 6.5rem;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 1.23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    }
+    .top .tu{
+    width: 1.98rem;
+    height: 3.5rem;
+    position: absolute;
+    top: 1.68rem;
+    left: 2.75rem;
+    }
+    .top .tu .tt{
+    width: 1.98rem;
+    height: 3.5rem;
+    }
+    .top .xia{
+    width: 5.04rem;
+    height: 0.6rem;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.6rem;
+    text-align: center;
+    }
+    .top .xia .kuai{
+    width: 2.2rem;
+    height: 0.6rem;
+    background:linear-gradient(left,#ff4646,#ff7918);
+    background:-webkit-linear-gradient(left,#ff4646,#ff7918);
+    border-radius: 0.3rem;
+    }
+    .top .xia .kuai1{
+    width: 2.2rem;
+    height: 0.6rem;
+    background-color: #E5E5E5;
+    border-radius: 0.3rem;
+    }
+    .top .xia .kuai p{
+    font-size: 0.34rem;
+    color: #fff;
+    }
+    .top .xia .kuai1 p{
+    font-size: 0.34rem;
+    color: #fff;
+    }

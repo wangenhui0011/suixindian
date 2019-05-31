@@ -1,0 +1,113 @@
+.tou{
+    width: 7.5rem;
+    height: 0.88rem;
+    background:linear-gradient(to right,#ff3432,#ff7918);
+    background:-webkit-linear-gradient(to right,#ff3432,#ff7918);
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.tou .zi{
+    width: 7.02rem;
+    height: 0.88rem;
+    background:linear-gradient(to right,#ff3432,#ff7918);
+    background:-webkit-linear-gradient(to right,#ff3432,#ff7918);
+}
+.tou .zi .icon-fanhui1{
+    color: #fff;
+    font-size: 0.4rem;
+    line-height: 0.88rem;    
+}
+.tou .zi span{
+    color: #fff;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    margin-left: 2.3rem;
+}
+.mr{
+    width: 7.5rem;
+    height: 0.95rem;
+    background-color: #fff;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.88rem;
+}
+.mr .mrnk{
+    width: 7.02rem;
+    height: 0.95rem;
+    background-color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem auto;
+}
+.mr .mrnk .mrk1{
+    width: 2.5rem;
+    height: 0.95rem;
+    background-color:#fff; 
+}
+.mr .mrnk .mrk1 input{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-top: 0.35rem;
+    background:#FF584A;
+}
+.mr .mrnk .mrk1 span{
+    font-size: 0.36rem;
+    color: #FF584A;
+    line-height: 0.95rem;
+    margin-left: 0.1rem;
+    font-weight: bold;
+}
+.mr .mrnk .mrk2 i{
+    color: #FC7979;
+    font-size: 0.3rem;
+    line-height: 0.95rem;
+}
+.mr .mrnk .mrk2 .icon-lajitong{
+    margin-left: 1.4rem;
+}
+.mr .mrnk .mrk2 .icon-bianji{
+    margin-left: 0.1rem;
+}
+.ddz{
+    width: 7.5rem;
+    height: 2.25rem;
+    background-color: #fff;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+}
+.ddz .ddzz{
+    width: 7.02rem;
+    height: 2.4rem;
+    background-color: #fff;
+    box-shadow: 0 0.1rem 0.1rem 0.01rem #FFEAE8;
+    margin-top: 0.1rem;
+}
+.ddz .ddzz .dz{
+    font-size: 0.36rem;
+    color: #060606;
+    margin-left: 0.2rem;
+}
+.ddz .ddzz .dz1{
+    font-size: 0.26rem;
+    color: #BABABA;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+.mr1{
+    margin-top: 0;
+}
+.xz{
+    width: 3.59rem;
+    height: 0.87rem;
+    border-radius: 0.44rem;
+    background:linear-gradient(to right,#FF3631,#FF7519);
+    background:-webkit-linear-gradient(to right,#FF3631,#FF7519);
+    color: #fff;
+    line-height: 0.87rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    }

@@ -1,0 +1,315 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left, #ff3434,#ff7918);
+    background:-webkit-linear-gradient(left, #ff3434,#ff7918);
+    color:#FFF;
+    font-size:0.36rem;
+    text-align: center;
+    line-height: 0.88rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;    
+    
+}
+.tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    padding: 0 0.24rem;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-top: 0.01rem solid #d7d7d7;
+    background-color: #FFF;
+    z-index: 10;
+}
+.tab .tubiao{
+    width: 0.90rem;
+    height: 0.98rem;
+    background-color: #FFF;
+    text-align: center;
+}
+.tab .tubiao .iconfont{
+    font-size: 0.46rem;
+    color: #9B9B9B;
+    display: block;
+    margin-top: 0.09rem;
+}
+.tab .tubiao .icon-shouyexian{
+    color: #FE6135;
+}
+.tab .tubiao p{
+    font-size: 0.12rem;
+    margin-bottom: 0.3rem;
+    color: #545454;
+}.tab .tubiao .p1{
+    color: #FE6135;
+}
+.dingwei{
+    width: 7.5rem;
+    height: 0.86rem;
+    padding: 0 0.24rem;
+    display: flex;
+    align-items:center;
+    margin-top: 0.88rem;
+    box-sizing: border-box;
+}
+.dingwei .iconfont{
+    color: #FE6135;
+    font-size: 0.48rem;
+    
+}
+.dingwei span{
+    font-size: 0.36rem;
+    margin: 0 0.1rem;
+}
+.dingwei .icon-arrow-backimg{
+    color: #000;
+    font-size: 0.25rem;
+}
+.sousuo{
+    width: 7.02rem;
+    height: 0.82rem;
+    border-radius: 0.41rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    line-height: 0.82rem;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+}
+input{
+    width: 4.68rem;
+    height: 0.78rem;
+    border: 0;
+    font-size: 0.36rem;
+    color: #989898;
+    text-indent: 1em;
+}
+.sousuo i{
+    font-size: 0.50rem;
+    line-height: 0.82rem;
+    display: inline-block;
+    margin-left: 0.2rem;
+}
+.sousuo .icon-cuo{
+    font-size: 0.25rem;
+    color: #989898;
+}
+.sousuo span{
+    font-size: 0.26rem;
+    color: #989898;
+    margin-left:0.1rem;
+}
+.lunbo{
+    width: 7.02rem;
+    height: 3.96rem;
+    background-color: #000;
+    border-radius: 0.1rem;
+    margin: 0.3rem auto;
+    position: relative;
+}
+.lunbo .tu img{
+    width: 7.02rem;
+    height: 3.96rem;
+}
+.lunbo .lunbodian{
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    width: 2.5rem;
+    height: 0.2rem;
+}
+.lunbo .dian{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background-color: #989898;
+    float: left;
+    margin: 0 0.05rem;
+}
+.lunbo .lunbodian  .dian1{
+    width: 0.68rem;
+    height: 0.2rem;
+    border-radius: 0.1rem;
+}
+.youhui{
+    width: 7.02rem;
+    height: 1.68rem;
+    border-radius: 0.22rem;
+    background-color: #000;
+    margin: 0 auto;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+}
+.youhui img{
+    width: 7.02rem;
+    height: 1.68rem;
+}
+.jifen{
+    width: 7.02rem;
+    height: 3rem;
+    margin: 0 auto;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+    
+}
+.jifen .bo{
+    width: 3.4rem;
+    height: 3rem;
+    background-color: #FFF;
+    float: left;
+    margin-right: 0.20rem;
+    overflow: hidden;
+}
+.jifen .bo1{
+    width: 3.4rem;
+    height: 1.42rem;
+    margin-bottom: 0.2rem;
+    float: left;
+    background-color: #FFF;
+}
+.jifen .bo2{
+    width: 3.4rem;
+    height: 1.42rem;
+    float: left;
+    background-color: #FFF;
+}
+.jifen .bo img{
+    width: 3.4rem;
+    height: 3rem;
+}
+.jifen .bo1 img{
+    width: 3.4rem;
+    height: 1.42rem;
+}
+.jifen .bo2 img{
+    width: 3.4rem;
+    height: 1.42rem;
+}
+.biaoti{
+    width: 7.02rem;
+    height: 0.66rem;
+    margin: 0 auto;
+    display: flex;
+    line-height:0.66rem;
+}
+.biaoti .iconfont{
+    font-size: 0.6rem;
+    color: #dc341e;
+}
+.biaoti p{
+    margin-left: 0.2rem;
+    font-weight: bold;
+    font-size: 0.36rem;
+}
+.neirong{
+    width: 7.02rem;
+    height: 2.3rem;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+    overflow: hidden;
+}
+.n1{
+    margin-bottom: 0.25rem;
+}
+.neirong img{
+    width: 3rem;
+    height: 1.9rem;
+    margin: 0.2rem;
+}
+.neirong .p1{
+    position: absolute;
+    top: 0.3rem;
+    left: 3.4rem;
+    font-weight: bold;
+    font-size: 0.3rem;
+}
+.neirong .p2{
+    position: absolute;
+    top: 0.7rem;
+    left: 3.4rem;
+    color: #e5e5e5;
+    font-size: 0.18rem;
+}
+.neirong .p3{
+    position: absolute;
+    top: 1.0rem;
+    left: 3.4rem;
+    color: #ffe1df;
+    font-size: 0.24rem;
+}
+.neirong .p4{
+    position: absolute;
+    top: 1.3rem;
+    left: 3.4rem;
+    color: #ff4c45;
+    font-size: 0.24rem;
+}
+.neirong .p5{
+    position: absolute;
+    top: 1.8rem;
+    left: 3.4rem;
+    color: #cccccc;
+    font-size: 0.18rem;
+}
+.neirong .p4 span{
+    font-size:0.3rem; 
+}
+.neirong pre{
+    position: absolute;
+    top: -0.2rem;
+    right: 0.1rem;
+    color: #FFF;
+}
+.neirong .d2{
+    border-top: 1rem solid #ff5824;
+    border-bottom: transparent;
+    border-left: 1rem solid #ffffff;
+    border-right: 8rem solid #ff5824;
+    position: absolute;
+    top: 0;
+    right: -8rem;
+}
+.neirong .d1{
+    width: 0.4rem;
+    height: 1.18rem;
+    background-color: #ff3931;
+    position: absolute;
+    top: 0;
+    right: 0.3rem;
+    text-align: center;
+}
+.neirong .d3{
+    border-top:0.5rem solid transparent;
+    border-bottom: 0.5rem solid #ffffff;
+    border-left: 0.2rem solid transparent;
+    border-right: 0.2rem solid transparent;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.01rem;
+}
+.neirong .d1 span{
+    color: #FFF;
+    font-size: 0.24rem;
+}
+.dix{
+    width: 7.02rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dix .g{
+    width: 1.5rem;
+    height: 0.03rem;
+    background-color: #fec1c1;
+}
+.dix span{
+    color: #B1B1B1;
+}

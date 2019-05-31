@@ -1,0 +1,169 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left, #ff3434,#ff7918);
+    background:-webkit-linear-gradient(left, #ff3434,#ff7918);
+    color:#FFF;
+    font-size:0.36rem;
+    text-align: center;
+    line-height: 0.88rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;    
+    
+}
+.tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    padding: 0 0.24rem;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-top: 0.01rem solid #d7d7d7;
+    background-color: #FFF;
+    z-index: 10;
+}
+.tab .tubiao{
+    width: 0.90rem;
+    height: 0.98rem;
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+}
+.tab .tubiao img{
+    position: absolute;
+    bottom: 0.55rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    right: 0.01rem;
+}
+.tab .tubiao .iconfont{
+    font-size: 0.46rem;
+    color: #9B9B9B;
+    display: block;
+    margin-top: 0.09rem;
+}
+.tab .tubiao .icon-gouwuche{
+    color: #FE6135;
+}
+.tab .tubiao p{
+    font-size: 0.12rem;
+    margin-bottom: 0.3rem;
+    color: #545454;
+}.tab .tubiao .p1{
+    color: #FE6135;
+}
+.bei{
+    width: 7.5rem;
+    height: 11.48rem;
+    background-color: #FFF;
+    margin-top: 0.88rem;
+}
+.bei .kong{
+    width: 7.2rem;
+    height: 5.2rem;
+    margin: 0.88rem auto 0.2rem;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+    border-radius: 0.1rem;
+    text-align: center;
+}
+.kong img{
+    width: 4.8rem;
+    height: 3.6rem;
+    margin:0.7rem 1.2rem 0;
+}
+.kong p{
+    margin-top: 0.15rem;
+    font-size: 0.3rem;
+    color: #CACACA;
+}
+.meishi{
+    width: 7.5rem;
+    height: 5.45rem;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+    position: relative;
+}
+.nei{
+    overflow: hidden;
+    width: 7.5rem;
+    height: 4.3rem;
+}
+.tou{
+    width: 7.5rem;
+    height: 1rem;
+    display: flex;
+}
+.tou img{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+}
+.tou p{
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    color: #585858;
+    font-weight: bold;
+    font-size: 0.36rem;
+}
+.neirong{
+    width: 2.6rem;
+    height: 3.08rem;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+    color: #CACACA;
+    margin-left: 0.24rem;
+    margin-top: 0.3rem;
+    float: left;
+    border-radius: 0.1rem;
+    overflow: hidden;
+    position: relative;
+}
+.box1{
+    width: 2.6rem;
+    height: 4rem;
+}
+.neirong .xia{
+    width: 2.6rem;
+    height: 3.08rem;
+}
+.box1 p{
+    font-size: 0.3rem;
+    color: #FF3433;
+    float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    font-weight: bold;
+    margin-left: 0.4rem;
+}
+.box1 p span{
+    font-size: 0.48rem;
+}
+.box1 .gou{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 1.8rem;
+}
+.box2{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 2.85rem;
+}
+.box2 .gou{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    bottom: -0.4rem;
+    left: 1.8rem;
+}
+.box3{
+    width: 1.8rem;
+    height: 4.5rem;;
+    position: absolute;
+    bottom: 0rem;
+    left: 5.7rem;
+    overflow: hidden;
+}

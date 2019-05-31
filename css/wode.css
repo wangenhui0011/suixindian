@@ -1,0 +1,171 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left, #ff3434,#ff7918);
+    background:-webkit-linear-gradient(left, #ff3434,#ff7918);
+    color:#FFF;
+    font-size:0.36rem;
+    text-align: center;
+    line-height: 0.88rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;    
+    
+}
+.tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    padding: 0 0.24rem;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-top: 0.01rem solid #d7d7d7;
+    background-color: #FFF;
+    z-index: 10;
+}
+.tab .tubiao{
+    width: 0.90rem;
+    height: 0.98rem;
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+}
+.tab .tubiao img{
+    position: absolute;
+    bottom: 0.55rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    right: 0.01rem;
+}
+.tab .tubiao .iconfont{
+    font-size: 0.46rem;
+    color: #9B9B9B;
+    display: block;
+    margin-top: 0.09rem;
+}
+.tab .tubiao .icon-wode{
+    color: #FE6135;
+}
+.tab .tubiao p{
+    font-size: 0.12rem;
+    margin-bottom: 0.3rem;
+    color: #545454;
+}.tab .tubiao .p1{
+    color: #FE6135;
+}
+.bei{
+    width: 7.5rem;
+    height: 11.48rem;
+    background-color: #FFF;
+    margin-top: 0.76rem;
+    position: relative;
+}
+.bei .tu{
+    width: 7.5rem;
+    height: 5.36rem;
+    overflow: hidden;
+}
+.bei .i1{
+    height: 11.48rem;
+    width: 7.5rem;
+}
+.bei .jianjie{
+    width: 7.02rem;
+    height: 3.36rem;
+    background-color: #FFF;
+    position: absolute;
+    top: 2rem;
+    left: 0.24rem;
+    z-index: 1;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+}
+.bei .jianjie img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 2.1rem;
+    left: 1.35rem;
+}
+.bei .jianjie .r{
+    position: absolute;
+    top: 2.1rem;
+    left: 3.7rem;;
+}
+.bei .i2{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 2.7rem;
+    z-index: 2;
+}
+.bei .p1{
+    font-size: 0.36rem;
+    color: #FF482B;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+.p2{
+    font-size: 0.24rem;
+    color: #8E8E8E;
+    text-align: center;
+}
+.jianjie .i{
+    width: 6.6rem;
+    height: 1.34rem;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    border-top: 0.01rem solid #F9F9F9;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.jianjie .iconfont{
+    font-size: 0.6rem;
+    color: #FE4920;
+    margin-left: 0.13rem;
+}
+.pai p{
+    font-size: 0.24rem;
+    color: #585858;
+}
+.jianjie .pai1 p{
+    color: #CCCCCC;
+}
+.jianjie .pai1 .iconfont{
+    color: #CCCCCC;
+}
+.di{
+    width: 7.5rem;
+    height: 5.5rem;
+    margin-top: 0.35rem;
+}
+.di p{
+    width: 7.02rem;
+    height: 1.1rem;
+    margin: 0 auto;
+    line-height: 1.1rem;
+    border-bottom: 0.01rem solid #EBEBEB;
+    color: #636363;
+} 
+.di span{
+    float: right;
+    color: #737373;
+    font-size: 0.2rem;
+}
+.di i{
+    float: right;
+}
+.di .p5{
+    color: #FF8868;
+    font-size: 0.2rem;
+    border-bottom: 0;
+}
+.di .p5 span{
+    color: #FF8868;
+    font-size: 0.2rem;
+}

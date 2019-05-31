@@ -1,0 +1,222 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left, #ff3434,#ff7918);
+    background:-webkit-linear-gradient(left, #ff3434,#ff7918);
+    color:#FFF;
+    font-size:0.36rem;
+    text-align: center;
+    line-height: 0.88rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    /* position: relative;      */
+}
+.box a .icon-mjiantou-copy{
+    color: #FFF;
+    font-size: 0.5rem;
+    position: absolute;
+    left: 0rem;
+}
+.bei{
+    width: 7.5rem;
+    height: 13.40rem;
+    background-color: #FFF;
+    margin-top: 0.88rem;
+}    
+.bei img{
+    width: 7.5rem;
+    height: 6rem;;
+}
+.bei .zhishu .p1{
+    color: #FF5625;
+    margin-left: 0.24rem;
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    float: left;
+}
+.bei .zhishu i{
+    color: #FF5625;
+    font-size: 0.28rem;
+}
+.bei .zhishu .i1{
+    color: #CCCCCC;
+}
+.bei .p2{
+    font-size: 0.3rem;
+    color: #FF3433;
+    float: right;
+    margin-top: 0.1rem;
+    margin-right: 0.24rem;
+    font-weight: bold;
+
+}
+.bei p b{
+    font-size: 0.48rem;
+}
+.bei .p4{
+    margin-top: 0.6rem;
+    margin-left: 0.24rem;
+}
+.bei .p3{
+    width: 7.02rem;
+    height: 0.72;
+    color: #A3A3A3;
+    font-size: 0.26rem;
+    margin: 0.1rem auto;
+}
+.hao{
+    display: flex;
+    width: 7.02rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.hao div{
+    width: 1.6rem;
+    height: 0.52rem;
+    background-color: #FFF;
+    border: 0.01rem solid #FFBAA7 ;
+    box-shadow: 0 0.03rem 0.2rem 0.03rem #FFC6C6;
+    border-radius: 0.26rem;
+    text-align: center;
+    color: #FF5625;
+    font-size: 0.3rem;
+    line-height: 0.52rem;
+    margin: 0.2rem;
+}.hao .d1{
+    border: 0.01rem solid #FFDCD4 ;
+    box-shadow: 0 0.1rem 0.2rem 0.03rem #FFEBEB;
+    color: #FFD8D2
+}
+.pin{
+    width: 7.2rem;
+    height: 2rem;
+    /* background-color: #A3A3A3; */
+    margin-right: 0.26rem;
+    margin-left: 0.13rem;
+}
+.pin img{
+    width: 1.3rem;
+    height: 1.3rem;
+    float: left;
+}
+.pin .nei{
+    width: 5.7rem;
+    height: 2rem;
+    /* background-color: #FF3433; */
+    float: right;
+}
+.nei b{
+    font-size: 0.3rem;
+    color: #626262;
+}
+.nei .p6{
+    font-size: 0.20rem;
+    color: #A8A7A7;
+    margin-top: 0.2rem;
+}
+.nei .p5{
+    font-size: 0.24rem;
+    color: #D2D2D2;
+}
+.nei i{
+    float: right;
+    color: #FF5625;
+    font-size: 0.28rem;
+}
+
+.nei .i1{
+    color: #CCCCCC;
+    margin-right: 0.2rem;
+}
+.meishi{
+    width: 7.5rem;
+    height: 3.5rem;
+    box-shadow: 0 0 0.20rem 0.05rem #FDF4F0;
+    overflow: hidden;
+    overflow: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+.meishi .nei{
+    width: 10rem;
+    height: 3.08rem;
+    display: flex;
+    /* overflow: auto; */
+}
+.tou{
+    width: 7.5rem;
+    height: 1rem;
+    display: flex;
+}
+.tou img{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+}
+.tou p{
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    color: #585858;
+    font-weight: bold;
+    font-size: 0.36rem;
+}
+.neirong{
+    width: 2.6rem;
+    height: 3.08rem;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+    color: #CACACA;
+    margin-left: 0.24rem;
+    margin-top: 0.2rem;
+    border-radius: 0.1rem;
+    overflow: hidden;
+}
+.neirong .xia{
+    width: 2.6rem;
+    height: 3.08rem;
+}
+.dibu{
+    width: 7.5rem;
+    height: 0.98rem;
+    border-top:0.01rem solid #F6F5F5 ;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    background-color: #fff;
+}
+.dibu .he{
+    width: 2.8rem;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+    margin-left: 0.1rem;
+}
+.dibu .he div{
+    width: 0.7rem;
+    height: 0.98rem;
+}
+.dibu .he i{
+    font-size: 0.5rem;
+    color: #FF7D59;
+}
+.dibu .he span{
+    font-size: 0.18rem;
+    color: #FF7D59;
+}
+.dibu .jiesuan{
+    width: 2.9rem;
+    height: 0.86rem;
+    border-radius: 0.43rem;
+    background:linear-gradient(left,#FE3433,#FE761B);
+    background:-webkit-linear-gradient(left,#FE3433,#FE761B);
+    float: right;
+    color: #FFF;
+    font-size: 0.3rem;
+    line-height: 0.86rem;
+    text-align: center;
+    margin-top: 0.1rem;
+    margin-right: 0.3rem;
+}

@@ -1,0 +1,171 @@
+.top{
+    height: 0.88rem;
+    width: 7.5rem;
+    background:linear-gradient(90deg, 
+    #ff3333 0%, 
+    #ff7a18 100%);
+    line-height: 0.88rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.top span{
+        width: 1.49rem;
+        height: 0.36rem;
+        display: block;
+        margin: 0 auto;
+        font-size: 0.36rem;
+        color: #ffffff;
+}
+.top .icon-fanhui{
+    font-size: 0.35rem;
+    color: #ffffff;
+    float: left;
+    margin-left: 0.22rem;
+}
+.tuijian{
+    width: 7.5rem;
+    height: 0.88rem;
+    margin-top: 0.78rem;
+    box-sizing: border-box;
+    padding: 0.34rem 0.24rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: #9999 solid 0.01rem;
+
+}
+.tuijian span{
+    display: block;
+}
+ .tuijian .tiao{
+    width: 0.38rem;
+    height: 0.06rem;
+    background: #ff3532;
+    position: fixed;
+    top: 1.6rem;
+    left: 0.5rem;
+}
+.tuijian1{
+    width: auto;
+    height: 0.28rem;
+    font-size: 0.3rem;
+    margin-left: 0.36rem;
+    color: #818181;
+}
+.tuijian2{
+    margin-left: 0;
+    color: #FFAEA8;
+}
+.dingdan1{
+    width: 7.04rem;
+    height: 4.5rem;
+    border-radius: 0.1rem;
+    margin: 0.33rem auto;
+    box-shadow: 0px 6px 14px 0px 
+		rgba(252, 119, 101, 0.2);
+}
+.dingdan1 .clatop{
+    width: 6.9rem;
+    height: 0.7rem;
+    margin: 0.2rem auto;
+    padding: 0 0.1rem 0 0.1rem;
+    border-bottom: #9999 solid 0.01rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 0.7rem;
+}
+.dingdan1 .clatopleft{
+    font-size: 0.36rem;
+    color: #565555;
+    font-weight: bold;
+}
+.dingdan1 .clatopleft span{
+    font-size: 0.28rem;
+    color: #565555;
+    font-weight: bold;
+}
+.dingdan1 .clatopright{
+    font-size: 0.28rem;
+    color: #ff4f40;
+}
+.tupian{
+    width: 7.01rem;
+    height: 2.3rem;
+    padding: 0.2rem 0.14rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.tupianleft{
+    width: 1.88rem;
+    height: 1.88rem;
+    border-radius: 50%;
+    background-color: blue;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.tupianleft img{
+    width: 1.88rem;
+    height: 1.88rem;    
+}
+.zhongzi{
+    margin-left: 0.32rem;
+}
+.diyi{
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #333333;
+}
+.dier{
+    font-size: 0.3rem;
+    color: #F01D1A;
+    font-weight: bold;
+}
+.kang .iconfont{
+    font-size: 0.4rem;
+    position: absolute;
+    right: 0.19rem;
+    bottom: 0.45rem;
+    color: #D3D3D3;
+}
+.clabottom1{
+    width: 5.18rem;
+    height: 0.25rem;
+    margin-top: 0.1rem;
+    margin-left: 1.75rem;
+    font-size: 0.25rem;
+    padding: 0 0 0 0.25rem;
+    color: #2F2F2F;
+}
+button{
+    list-style: none;
+    width: 1.2rem;
+    height: 0.39rem;
+    border-radius: 0.5rem;
+    background-color: #D3D3D3;
+    border: 0;
+}
+ button span{
+    color: #FFFFFF;
+    font-size: 0.18rem;
+    line-height: 0.39rem;
+}
+.dingdan1 .dage{
+    background-image: linear-gradient(90deg, 
+		#ff4646 0%, 
+		#ffa800 100%);
+}
+.anniu{
+    width: 4.33rem;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.6rem;
+    margin-top: 0.2rem;
+}

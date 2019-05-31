@@ -1,0 +1,204 @@
+.box{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left, #ff3434,#ff7918);
+    background:-webkit-linear-gradient(left, #ff3434,#ff7918);
+    color:#FFF;
+    font-size:0.36rem;
+    text-align: center;
+    line-height: 0.88rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;    
+    
+}
+.tab{
+    width: 7.5rem;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    padding: 0 0.24rem;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-top: 0.01rem solid #d7d7d7;
+    background-color: #FFF;
+    z-index: 10;
+}
+.tab .tubiao{
+    width: 0.90rem;
+    height: 0.98rem;
+    background-color: #FFF;
+    text-align: center;
+    position: relative;
+}
+.tab .tubiao img{
+    position: absolute;
+    bottom: 0.55rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    right: 0.01rem;
+}
+.tab .tubiao .iconfont{
+    font-size: 0.46rem;
+    color: #9B9B9B;
+    display: block;
+    margin-top: 0.09rem;
+}
+.tab .tubiao .icon-gouwuche{
+    color: #FE6135;
+}
+.tab .tubiao p{
+    font-size: 0.12rem;
+    margin-bottom: 0.3rem;
+    color: #545454;
+}.tab .tubiao .p1{
+    color: #FE6135;
+}
+.bei{
+    width: 7.5rem;
+    height: 11.48rem;
+    background-color: #FFF;
+    margin-top: 0.88rem;
+}
+.daohang{
+    width: 7.5rem;
+    height: 1rem;
+    margin-top: 0.88rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+.daohang img{
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-right: 0.2rem;
+    margin-top: 0.1rem;
+}
+.daohang .p1{
+    font-size: 0.32rem;
+    color: #737373;
+    margin-right: 4.3rem;
+    margin-left: -0.3rem;
+}
+.daohang a{
+    display: block;
+    margin-right: 0.20rem;
+}
+.daohang .iconfont{
+    font-size: 0.4rem;
+    color: #CCCCCC;
+    margin-left:0.3rem;
+}
+.daohang .p2{
+    font-size: 0.32rem;
+    color: #CCCCCC;
+    margin-left: 0rem;
+    margin-right: 0.2rem;
+    display: contents;
+}
+.cai{
+    width: 7.02rem;
+    height: 2.12rem;
+    border-radius: 0.1rem;
+    margin: 0.15rem auto;
+    position: relative;
+    box-shadow: 0 0 0.20rem 0.08rem #FDF4F0;
+}
+.cai .y{
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    top:0.7rem;
+    left: 0.3rem;
+}
+.cai .z{
+    width: 1.62rem;
+    height: 1.62rem;
+    position: absolute;
+    top:0.25rem;
+    left: 1.2rem;
+}
+.cai .p1{
+    font-size: 0.30rem;
+    color: #737373;
+    position: absolute;
+    top:0.4rem;
+    left: 3rem;
+    font-weight: bold;
+}
+.cai .p2{
+    font-size: 0.24rem;
+    color: #B8B8B8;
+    position: absolute;
+    top:0.9rem;
+    left: 3rem;
+}
+.cai .p3{
+    font-size: 0.24rem;
+    color: #FF5751;
+    position: absolute;
+    top:1.4rem;
+    left: 3rem;
+    font-weight: bold;
+}
+.cai span{
+    font-size: 0.38rem;
+}
+.num{
+    width: 1.15rem;
+    height: 0.36rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.22rem;
+
+}
+ .num b{
+    display: block;
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.num b img{
+    width: 100%;
+    height: 100%;
+}
+.num span{
+    color: #ff3931;
+    font-size: 0.34rem;
+}
+.jiesuan{
+    width: 7.5rem;
+    height: 1.2rem;
+    margin: 4.75rem auto 0;
+}
+.jiesuan p{
+    font-size: 0.3rem;
+    color: #B8B8B8;
+    float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    font-weight: bold;
+}
+.jiesuan p span{
+    font-size: 0.48rem;
+    color: #B8B8B8;
+}
+.jiesuan div{
+    width: 2.9rem;
+    height: 0.86rem;
+    border-radius: 0.43rem;
+    background-color: #FFD0BC;
+    float: right;
+    color: #FFF;
+    font-size: 0.3rem;
+    line-height: 0.86rem;
+    text-align: center;
+    margin-top: 0.1rem;
+    margin-right: 0.3rem;
+}

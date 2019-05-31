@@ -76,6 +76,7 @@
     flex-direction: row;
     justify-content: space-between;
     line-height: 0.7rem;
+    box-sizing: border-box;
 }
 .dingdan1 .clatopleft{
     font-size: 0.36rem;

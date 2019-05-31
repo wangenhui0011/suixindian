@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: #F5F5F5 solid 0.01rem;
+    border-bottom: #9999 solid 0.01rem;
 
 }
 .tuijian span{
@@ -71,16 +71,15 @@
     height: 0.7rem;
     margin: 0.2rem auto;
     padding: 0 0.1rem 0 0.1rem;
-    border-bottom: #F5F5F5 solid 0.01rem;
+    border-bottom: #9999 solid 0.01rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     line-height: 0.7rem;
-    box-sizing: border-box;
 }
 .dingdan1 .clatopleft{
     font-size: 0.36rem;
-    color: #575656;
+    color: #565555;
     font-weight: bold;
 }
 .dingdan1 .clatopleft span{
@@ -91,7 +90,6 @@
 .dingdan1 .clatopright{
     font-size: 0.28rem;
     color: #ff4f40;
-    
 }
 .tupian{
     width: 7.01rem;

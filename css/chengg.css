@@ -11,15 +11,15 @@
     top: 0;
     z-index: 10;
     position: relative;
-    }
-    .tou .icon-right{
+}
+.tou .icon-right{
     position: absolute;
     color: #fff;
     font-size: 0.3rem;
     top: 0;
     left: 0.24rem;
-    }
-    .top{
+}
+.top{
     width: 7.5rem;
     height: 6.5rem;
     position: relative;
@@ -28,19 +28,19 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    }
-    .top .tu{
+}
+.top .tu{
     width: 1.98rem;
     height: 3.5rem;
     position: absolute;
     top: 1.68rem;
     left: 2.75rem;
-    }
-    .top .tu .tt{
+}
+.top .tu .tt{
     width: 1.98rem;
     height: 3.5rem;
-    }
-    .top .xia{
+}
+.top .xia{
     width: 5.04rem;
     height: 0.6rem;
     background-color: #fff;
@@ -49,25 +49,25 @@
     justify-content: space-between;
     line-height: 0.6rem;
     text-align: center;
-    }
-    .top .xia .kuai{
+}
+.top .xia .kuai{
     width: 2.2rem;
     height: 0.6rem;
     background:linear-gradient(left,#ff4646,#ff7918);
     background:-webkit-linear-gradient(left,#ff4646,#ff7918);
     border-radius: 0.3rem;
-    }
-    .top .xia .kuai1{
+}
+.top .xia .kuai1{
     width: 2.2rem;
     height: 0.6rem;
     background-color: #E5E5E5;
     border-radius: 0.3rem;
-    }
-    .top .xia .kuai p{
+}
+.top .xia .kuai p{
     font-size: 0.34rem;
     color: #fff;
-    }
-    .top .xia .kuai1 p{
+}
+.top .xia .kuai1 p{
     font-size: 0.34rem;
     color: #fff;
-    }
+}
